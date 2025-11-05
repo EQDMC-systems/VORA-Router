@@ -1,0 +1,19 @@
+{
+  "name": "vora-router",
+  "version": "1.0.0",
+  "description": "Shannon entropy-based task routing for EQDMC agents",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node src/test-router.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "@octokit/rest": "^20.0.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
